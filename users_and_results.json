@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "first name": "Ivan",
+      "last name": "Ivanov",
+      "gender": "male",
+      "lang": "rus",
+      "answers": [
+        "рука",
+        "нога",
+        "зеленый",
+        "диван",
+        "чайник",
+        "чашка"
+      ]
+    },
+    {
+      "first name": "John",
+      "last name": "Smith",
+      "gender": "male",
+      "lang": "eng",
+      "answers": [
+        "hand",
+        "leg",
+        "green",
+        "sofa",
+        "teapot",
+        "cup"
+      ]
+    }
+  ]
+}

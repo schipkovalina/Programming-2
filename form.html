@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!-- Everything before <html> tag is used to beautify the webpage. You can copy it to your website without changing it for the same effect. -->
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+   .top {
+    margin-top: 40px
+   }
+   .bot{
+   margin-bottom: 50px
+   }
+
+    </style>
+</head>
+<div>
+    <div class="container">
+        {% if err %}
+        <div class="alert alert-danger" role="alert">
+            Error
+            <a class="btn btn-outline-danger" href="{{ url }}">{{ text }}</a>
+        </div>
+
+        {% endif %}
+        <form>
+            <div class="row top">
+                <div class="form-group col-md-4">
+                    <label>First Name: </label>
+                    <input type="text" class="form-control" name="first_name">
+                </div>
+                <div class="form-group col-md-4">
+                    <label>Last Name: </label>
+                    <input type="text" class="form-control" name="last_name">
+                </div>
+                <div class="form-group col-md-4">
+                    <label>Your language: </label>
+                    <input type="text" class="form-control" name="language">
+                </div>
+                <label class="col-md-4">
+                    <input type="radio" name="gender" value="male"> Male<br>
+                    <input type="radio" name="gender" value="female"> Female<br>
+                    <input type="radio" name="gender" value="other"> Other<br>
+                </label>
+            </div>
+            <div class="row top">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="{{url_for('static', filename='q1.jpg')}}" width="100%" height="100%"/>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="{{url_for('static', filename='q2.jpg')}}" width="100%" height="100%"/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <label>what's in the picture?: </label>
+                        <input type="text" name="q1">
+                    </div>
+                    <div class="col-md-6">
+                        <label>what's in the picture?: </label>
+                        <input type="text" name="q2">
+                    </div>
+                </div>
+                <div class="row top">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="{{url_for('static', filename='q3.jpg')}}" width="100%" height="100%"/>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="{{url_for('static', filename='q4.jpg')}}" width="100%" height="100%"/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>what color is in the picture?: </label>
+                            <input type="text" name="q3">
+                        </div>
+                        <div class="col-md-6">
+                            <label>what's in the picture?: </label>
+                            <input type="text" name="q4">
+                        </div>
+                    </div>
+                </div>
+                <div class="row top">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="{{url_for('static', filename='q5.jpg')}}" width="100%" height="100%"/>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="{{url_for('static', filename='q6.jpg')}}" width="100%" height="100%"/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>what's in the picture?: </label>
+                            <input type="text" name="q5">
+                        </div>
+                        <div class="col-md-6">
+                            <label>what's in the picture?: </label>
+                            <input type="text" name="q6">
+                        </div>
+                    </div>
+                    <center class="top bot">
+                        <input class="btn btn-primary btn-lg" type="submit" value="Отправить">
+                    </center>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
