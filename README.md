@@ -8,5 +8,6 @@
 **2**|GitHub Users|[*Код*](https://github.com/schipkovalina/Programming-2/tree/master/HW2)
 **3**|Собираем корпус из газет|[*Код*](https://github.com/schipkovalina/Programming-2/tree/master/PROJECT1)
 **4**|Сайт-анкета|[*Код*](https://github.com/schipkovalina/Programming-2/tree/master/PROJECT2)
+**5**|Поискровик для корпуса|[*Код*](https://github.com/schipkovalina/Programming-2/tree/master/HW5)
 
 ![](https://pp.userapi.com/c622928/v622928277/2843e/AZ84c-eV0d8.jpg)
