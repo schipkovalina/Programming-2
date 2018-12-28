@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .row{
+        margin-top: 30px
+        }
+        .left{
+        margin-left: 10px
+        }
+        ul {
+        list-style-type: none;
+        margin-top: 30px
+        }
+        li{
+        margin-top: 30px
+        }
+        h4{
+        margin-bottom: -3px
+        }
+    </style>
+</head>
+<body>
+<center>
+    <div class="container">
+        <div class="row">
+            <img src="{{url_for('static', filename='logo.png')}}"/>
+        </div>
+        <div class="row">
+            <form>
+                <div><input class="btn btn-light" type="submit" value="Поиск"><label class="left"><input type="text" name="search_string" placeholder="{{ field }}"></label><br>
+                </div>
+            </form>
+            <ul>
+                {% for info in answers %}
+                {% if (info['title'] != '\n') and (info['title'] != ''): %}
+                    <h4><li><a href="{{ info['url'] }}"> {{info['title']}} </a></li></h4>
+                    <p>{{ info['disc'] }}</p>
+                {% endif %}
+                {% endfor %}
+            </ul>
+
+        </div>
+</center>
+</body>
+</html>
