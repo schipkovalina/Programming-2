@@ -1,1 +1,1 @@
-Ссылка на корпус: https://drive.google.com/file/d/1E4CTRKb4QSrJjyoi90A6tSMrxKAE93th/view?usp=sharing
+Ссылка на корпус и файлы, которые не получилось загрузить на GitHub: https://drive.google.com/drive/folders/1hak87XjA94aO_NooZIED30bNfbeHKmus?usp=sharing
