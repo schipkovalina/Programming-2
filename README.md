@@ -9,7 +9,7 @@
 **3**|Собираем корпус из газет|[*Код*](https://github.com/schipkovalina/Programming-2/tree/master/PROJECT1)
 **4**|Сайт-анкета|[*Код*](https://github.com/schipkovalina/Programming-2/tree/master/PROJECT2)
 **5**|Поисковик для корпуса|[*Код*](https://github.com/schipkovalina/Programming-2/tree/master/HW5)
-**6**|VK API|[*Код*]
+**6**|VK API|[*Код*](https://github.com/schipkovalina/Programming-2/tree/master/HW6)
 
 
 ![](https://pp.userapi.com/c622928/v622928277/2843e/AZ84c-eV0d8.jpg)
