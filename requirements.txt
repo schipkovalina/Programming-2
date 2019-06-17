@@ -1,0 +1,4 @@
+ Flask==0.12.1
+ pymorphy2==0.8
+ requests==2.13.0
+ gensim==3.7.3
