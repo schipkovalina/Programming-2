@@ -10,7 +10,7 @@
 **4**|Сайт-анкета|[*Код*](https://github.com/schipkovalina/Programming-2/tree/master/PROJECT2)
 **5**|Поисковик для корпуса|[*Код*](https://github.com/schipkovalina/Programming-2/tree/master/HW5)
 **6**|VK API|[*Код*](https://github.com/schipkovalina/Programming-2/tree/master/HW6)
-**7**|Финальный проект|[*Код*](https://drive.google.com/drive/folders/1057D2Xpijh2QE2UA5DURrDIJyE4QZMDd), [*приложение*]( https://poet-help.herokuapp.com)
+**7**|Финальный проект|[*Код*](https://drive.google.com/drive/folders/1iTrjtBh-SbqCHI09Qq-PSmvJwXwWRtrZ), [*приложение*]( https://poet-help.herokuapp.com)
 
 
 ![](https://pp.userapi.com/c622928/v622928277/2843e/AZ84c-eV0d8.jpg)
